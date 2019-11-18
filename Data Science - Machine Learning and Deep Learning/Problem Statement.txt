@@ -1,1 +1,0 @@
-Data Contains 7 articles. Goal is to find 10 most common words in each article and using its index find out what the article is about.
