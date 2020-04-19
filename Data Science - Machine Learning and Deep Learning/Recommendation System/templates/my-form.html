@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <link rel='stylesheet' type='text/css' href='{{ url_for('static', filename='style.css')}}'/>
+</head>
+
+
+<body>
+    <div class='container'>
+        <form action='{{url_for('sample_recommendation')}}' method='POST'>
+                <div>
+                    <h2>LightFM Recommendation Demo</h2>
+                    <div class='descr'>
+                        <p> Movie Recommendation app built with Python, 
+                        please provide a user id (interger from 0 to 942) for prediction.</p>
+                    </div>
+                    <input class='input' name='number'>
+                </div>
+                <div>
+                    <input class='button' type='submit'>
+                </div>
+            </form>
+    </div>
+</body>
+
+</html>

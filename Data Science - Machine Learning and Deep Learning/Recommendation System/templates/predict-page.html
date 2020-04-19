@@ -1,0 +1,25 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+        <link rel='stylesheet' type='text/css' href='{{ url_for('static', filename='style.css')}}'/>
+</head>
+
+
+<body>
+    <div class='container'>
+        <div id='title'>
+            <h1>Basic Recommender System</h1>
+        </div>
+        <div>
+            <h3> Liked: {{ known }} </h3>
+        </div>
+        <div>
+            <h3> Recommended: {{ rec }} </h3>
+        </div>
+                
+    </div>
+</body>
+
+</html>
