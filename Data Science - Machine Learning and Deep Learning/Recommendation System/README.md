@@ -3,7 +3,7 @@
 ## Usage 
 #### 1. Clone directory
 ```bash
-$ git clone https://github.com/ahylton19/lightfm-recommender-app
+$ git clone https://github.com/ali9653/Recommendation-System-LightFM.git
 ```
 
 #### 2. Change directory
